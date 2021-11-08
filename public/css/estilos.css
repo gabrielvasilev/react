@@ -1,1 +1,40 @@
-body{background-color: red;}
+/* MENU */
+header{
+    display: grid;
+    grid-template-columns: 20% 50%;
+    justify-content: center;
+    background-color: black;
+}
+
+header figure img{
+    width: 150px;
+    padding-top: 5px;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    width: 150px;
+    
+}
+
+header nav ul li:last-child a{
+   color: red;
+}
+header nav ul li a{
+    display: block;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: border 1s ease;
+    border-bottom: 1px solid black;
+    color: white;
+}
+
+header nav ul li a:hover{
+    border-bottom: 1px solid white;
+}
