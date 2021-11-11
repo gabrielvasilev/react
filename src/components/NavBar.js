@@ -1,6 +1,9 @@
+import CartWidget from "./CartWidget"
+
 const NavBar = () =>{
 
-return <header>
+return (
+    <header>
         <figure>
               <img src="img/LOGO.png" />
         </figure>
@@ -17,7 +20,9 @@ return <header>
             </li>
           </ul>
         </nav>
+        <CartWidget />
       </header>
+)
 }
 
 export default NavBar
