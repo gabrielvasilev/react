@@ -11,9 +11,8 @@ export const ProductCard = ({img, name, stock}) =>{
                 <Card.Title>{name}</Card.Title>
                 <Card.Text>Descripción producto</Card.Text>
                 <Card.Text>Stock: {stock}</Card.Text>
-                <Button variant="primary">Go somewhere</Button>
             </Card.Body>
-            <ItemCount/>
+            <ItemCount stock="5"/>
             </Card>
         </div>
     )

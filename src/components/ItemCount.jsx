@@ -19,12 +19,17 @@ export const ItemCount = ({stock}) =>{
         }
     }
 
+    const respuesta = () =>{
+        alert(`Agregaste ${counter}`);
+    }
+
     return(
         <div>
             <h2>{counter}</h2>
             <div>
             <Button variant="primary" onclick={decrementar}>-</Button>
             <Button variant="primary" onclick={incrementar}>+</Button>
+            <Button variant="primary" size="lg" onclick={respuesta}>Agregar al carrito</Button>
 
             </div>
         </div>
